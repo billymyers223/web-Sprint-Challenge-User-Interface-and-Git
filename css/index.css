@@ -89,7 +89,8 @@ p {
     line-height: 1.4;
 }
 .jumbo{
-    margin: 5%;
+    margin: 30px;
+    
 }
 .container {
     width: 800px;
@@ -103,6 +104,12 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom:0px;
+}
 
 .top-content .text-container {
     width: 48%;
@@ -113,6 +120,10 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.middle-content-about {
+    margin-bottom: 20px;
+    border-top: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -136,6 +147,28 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxesabout{
+    display: flex;
+    flex-direction: row;
+    /* border:solid black 1px; */
+    justify-content: space-around;
+}
+.leftbox{
+    border-bottom: dashed 1px black;
+    
+    width: 370px;
+    margin-top: 30px;
+   
+}
+.rightbox{
+    border-bottom: dashed 1px black;
+    width: 370px;
+    margin-top: 30px;
+    
+}
+.pmarg{
+    margin-bottom: 20px;
+}
 
 .bottom-content {
     display: flex;
@@ -150,7 +183,25 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.bottom-about{
+    margin: 30px;
+    
+    width: 800px;
+}
+.learn{
+    display: flex;
+    border: solid black 2px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
 footer {
     width: 100%;
     background: black;
